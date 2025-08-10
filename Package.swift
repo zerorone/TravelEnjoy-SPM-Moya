@@ -38,7 +38,7 @@ let package = Package(
         .target(
             name: "Moya",
             dependencies: [
-                .product(name: "Alamofire", package: "Alamofire")
+                .product(name: "Alamofire", package: "TravelEnjoy-SPM-Alamofire")
             ],
             exclude: [
                 "Supporting Files/Info.plist"
